@@ -7,7 +7,6 @@ You can:
 - Encrypt a plaintext file using a public key.
 - Decrypt it back using the private key.
 
----
 
 ## 📦 Requirements
 
@@ -17,7 +16,7 @@ Install the required Python package:
 pip install cryptography
 ```
 
----
+
 # How to play this game?
 
 This section explains, step-by-step, how to use the RSA encryption and decryption scripts in this project — designed for beginner-level computer science students learning cryptography.
@@ -33,7 +32,6 @@ Meet me at 5 PM near the library.
 ```
 We call this **"plain text"** because it's not hidden or protected in any way.
 
----
 
 ## 🔹 Step 2: Why Do We Encrypt?
 
@@ -41,7 +39,6 @@ We encrypt messages to **protect them** from being read by anyone except the int
 
 Encryption turns **plain text** into **cipher text** — a scrambled, unreadable format that looks like random letters and numbers.
 
----
 
 ## 🔹 Step 3: What Is a Public Key?
 
@@ -69,7 +66,6 @@ python3 RSA_key_generated.py
 - keys/private_key.pem – Private key
 
 > 💡 Remember, this key is pairing.   
----
 
 ## 🔹 Step 4: How to Encrypt a File
 
